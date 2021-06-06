@@ -119,6 +119,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
-STRIPE_PUBLIC_KEY='pk_test_51IvESHSEJXkgN9eEfXq71htC7r3iPvFiOKqvRaBDNqxOVsDoN1keJQz4Ry8xWDQLYdS6MXC1CvHq4YD7jqwF8Cms00n5aUeFev'
-STRIPE_PRIVATE_KEY='sk_test_51IvESHSEJXkgN9eEpmYgAl5RSIVxbCFhTkDfvC6jJUKkMln0rCGJGuqCkiP4P2X2Gx8ckqZBy6O6MBRydJsnkqH800KFHY793T'
-STRIPE_ENDPOINT_SECRET = 'whsec_PnsxECUKwxdfJONA06SbfAV3IFf1VKAe'
+#put your public  secret and webhook secret key here
+STRIPE_PUBLIC_KEY=''
+STRIPE_PRIVATE_KEY=''
+STRIPE_ENDPOINT_SECRET = ''
